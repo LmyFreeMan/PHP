@@ -1,0 +1,82 @@
+{extend name="common/common" /}
+{block name="main"}
+
+	<ol class="am-breadcrumb">
+		<li><a href="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/index" class="am-icon-home">首页</a></li>
+		<li class="am-active"><a href="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/newslist">活动列表</a></li>
+	</ol>
+
+    <div class="am-u-md-12 am-u-sm-12">
+
+		{volist name="actinfo" id="data"}
+
+		<article class="am-g blog-entry-article">
+
+            <div class="am-u-lg-3 am-u-md-12 am-u-sm-12 blog-entry-img">
+                <img src="https://www.gxfwz36524.com/secondclass/public{$data.image}" alt="" class="am-u-sm-12">
+            </div>
+
+
+				<h1 ><a  href="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/news/id/{$data.id}.html">{$data.title}</a></h1>
+				<span>活动时间：{$data.time}</span><br><br>
+				<span>活动地点：{$data.place}</span>
+                <p><a href="" class="blog-continue">continue reading</a></p>
+
+        </article>
+		{/volist}
+
+<ul class="am-pagination am-pagination-centered">
+	<li class="am-disabled" id="insertli"><a >&laquo;</a></li>
+	<!--<li ><a >1</a></li>-->
+	<li class="am-disabled"><a >&raquo;</a></li>
+
+</ul>
+	</div>
+<script>
+
+
+
+    $(document).ready(function(){
+        $.post("https://www.gxfwz36524.com/secondclass/public/index.php/index/index/pagelist",{id:1},function(res){
+            console.log(res)
+			console.log($("ul"))
+			var li='';
+
+			if(res%5==0)
+			{
+			    console.log("dd");
+			    for(var i=1;i<=res/5;i++)
+                    li=li+'<li><a onclick="go(this);" href='+"https://www.gxfwz36524.com/secondclass/public/index.php/index/index/newslist/?id="+i+'>'+i+'</a></li>';
+			}
+			else
+			{ for(var i=1;i<=res/5+1;i++)
+
+                li=li+'<li><a onclick="go(this);" href='+"https://www.gxfwz36524.com/secondclass/public/index.php/index/index/newslist/?id="+i+'>'+i+'</a></li>';
+
+			}
+            console.log(li);
+            $("li#insertli").after(li)
+
+        })
+    })
+    function go(btn) {
+		console.log(btn.innerHTML)
+        $.post("https://www.gxfwz36524.com/secondclass/public/index.php/index/index/newslist",{id:btn.innerHTML},function(res){
+            console.log(res)
+        })
+
+
+    }
+
+
+
+
+
+
+
+
+
+</script>
+{/block}
+
+{block name="right"}{/block}

@@ -1,0 +1,198 @@
+---------------------------------------------------------------
+[ 2019-04-15T03:43:31+08:00 ] 220.181.125.179 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/news/id/51.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:58:23+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:58:32+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/news/id/55.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `id` = 55 LIMIT 1 [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:58:32+08:00 ] 219.148.44.138 POST www.gxfwz36524.com/secondclass/public/index.php/index/index/isjoin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `id` = 55 LIMIT 1 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:58:41+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/newslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC LIMIT 0,5 [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:58:42+08:00 ] 219.148.44.138 POST www.gxfwz36524.com/secondclass/public/index.php/index/index/pagelist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:58:53+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/apply
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:58:57+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:58:57+08:00 ] 219.148.44.138 POST www.gxfwz36524.com/secondclass/public/index.php/index/index/pagelist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:58:59+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/newslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC LIMIT 0,5 [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:59:00+08:00 ] 219.148.44.138 POST www.gxfwz36524.com/secondclass/public/index.php/index/index/pagelist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.001019s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:59:00+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:59:05+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/newslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC LIMIT 0,5 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:59:06+08:00 ] 219.148.44.138 POST www.gxfwz36524.com/secondclass/public/index.php/index/index/pagelist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000651s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` ORDER BY `time` DESC [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:59:07+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/apply
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2019-04-15T10:59:09+08:00 ] 219.148.44.138 GET www.gxfwz36524.com/secondclass/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2019-04-15T23:46:03+08:00 ] 102.129.224.2 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/news/id/58.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2019-04-15T23:46:07+08:00 ] 102.129.224.2 POST www.gxfwz36524.com/secondclass/public/index.php/index/index/isjoin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2019-04-15T23:46:18+08:00 ] 102.129.224.2 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/news/id/58.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2019-04-15T23:46:20+08:00 ] 102.129.224.2 POST www.gxfwz36524.com/secondclass/public/index.php/index/index/isjoin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000284s ]

@@ -1,0 +1,115 @@
+{extend name="common/common" /}
+{block name="main"}
+	<div class="am-u-md-12 am-u-sm-12">
+	<ol class="am-breadcrumb">
+		  <li><a href="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/index" class="am-icon-home">首页</a></li>
+		  <li><a href="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/newslist">活动列表</a></li>
+		  <li class="am-active">活动详情</li>
+	</ol>
+	</div>
+	<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img  am-hide-sm-only">
+				{empty name="$actinfo.image"}
+				<img src="__STATIC__/images/defult.png" alt="" class="am-u-sm-12">
+				{else/}
+				<img src="https://www.gxfwz36524.com/secondclass/public{$actinfo.image}" alt="" class="am-u-sm-12">
+				{/empty}
+                
+    </div>
+     <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+                
+                <h1>{$actinfo.title}</h1>
+		 <span><i class="am-icon-cc-discover am-icon-home am-icon-fw"></i>  {$actinfo.leader}</span><br><br>
+				<span><i class="am-icon-clock-o am-icon-sm am-icon-fw"></i>  {$actinfo.time}</span><br><br>
+				<span><i class="am-icon-map-marker am-icon-sm am-icon-fw"></i>  {$actinfo.place}</span><br><br>
+				<span><i class="am-icon-user am-icon-sm am-icon-fw"></i>  {$actinfo.total}人</span><br><br>
+				<span><i class="am-icon-line-chart am-icon-home am-icon-fw"></i>  {$actinfo.value}分</span><br><br>
+				<button class="am-btn am-btn-success am-round am-lg" onclick="join(this)" name="{$actinfo.id}" value="{$Think.session.userinfo.schoolnum}" id="b">我要报名</button>
+				
+                
+    </div>
+<script>
+	var schoonum=$("#b").val()
+	var id=$("#b").attr("name")
+
+    $.ajax(
+        {
+            url:"https://www.gxfwz36524.com/secondclass/public/index.php/index/index/isjoin",
+            data:{
+                "schoolnum":schoonum,
+                "id":id
+            },
+            type:'post',
+            dataType:'json',
+
+            success:function (data) {
+                console.log(data);
+                console.log(data=='"fail"')
+                if(data=='"fail"')
+                    $("#b").attr("disabled", true);
+
+            },
+            complete:function (res) {
+				console.log(res)
+            }
+
+        }
+    )
+
+
+
+
+
+
+
+
+
+    function join(btn) {
+        console.log("dddd")
+        console.log(btn.value)
+		console.log(btn.name)
+        if(btn.value.length!=10)
+		{
+
+		    alert("请先登录");
+		    window.location.href="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/index"
+		}
+		else {
+
+            $.ajax(
+				{
+					url:"https://www.gxfwz36524.com/secondclass/public/index.php/index/index/join",
+					data:{
+					    "schoolnum":btn.value,
+						"id":btn.name
+					},
+					type:'post',
+                    dataType:'json',
+
+					success:function (data) {
+                        console.log(data);
+                        console.log(typeof(data))
+					     console.log(data==="success");
+						if(data=='"success"')
+						{
+						  alert("报名成功");
+						$("#b").attr("disabled", true);
+						}
+                    }
+
+                }
+			)
+		}
+    }
+</script>
+    <div class="am-u-md-12 am-u-sm-12">
+		<div class="am-article-bd">          
+        <h2>活动简介：</h2>
+		<p>{$actinfo.content}</p>	
+        <hr>
+    </div>
+
+    </div>
+
+{/block}
+
+{block name="right"}{/block}

@@ -1,0 +1,34 @@
+[ 2019-03-29T11:06:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-29T11:06:31+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-29T11:06:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001189s ]
+[ 2019-03-29T11:06:31+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-29T11:06:31+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002034s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-29T11:06:31+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000622s ]
+[ 2019-03-29T11:06:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000172s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-29T11:06:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-29T11:06:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001488s ]
+[ 2019-03-29T11:06:55+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002537s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000838s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001517s ]
+[ 2019-03-29T11:06:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000160s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-29T11:06:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-29T11:06:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001482s ]
+[ 2019-03-29T11:06:55+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-29T11:06:55+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002756s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001403s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activescore' LIMIT 1 [ RunTime:0.000564s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activescore/index' LIMIT 1 [ RunTime:0.000339s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activescore/add' LIMIT 1 [ RunTime:0.000361s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activescore/edit' LIMIT 1 [ RunTime:0.000320s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activescore/del' LIMIT 1 [ RunTime:0.000313s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activescore/multi' LIMIT 1 [ RunTime:0.000339s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=181,`name`='activescore/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553828815  WHERE  `id` = 182 [ RunTime:0.000425s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=181,`name`='activescore/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553828815  WHERE  `id` = 183 [ RunTime:0.000389s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=181,`name`='activescore/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553828815  WHERE  `id` = 184 [ RunTime:0.000368s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=181,`name`='activescore/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553828815  WHERE  `id` = 185 [ RunTime:0.000373s ]
+[ 2019-03-29T11:06:55+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=181,`name`='activescore/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553828815  WHERE  `id` = 186 [ RunTime:0.000392s ]

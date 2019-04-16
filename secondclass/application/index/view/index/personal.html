@@ -1,0 +1,48 @@
+{extend name="common/common" /}
+{block name="main"}
+
+    <div class="am-u-md-8 am-u-sm-12">
+
+
+        <div class="timeline-year">
+
+        </div>
+        <hr>
+		<h1 class="blog-text-center">-- 活动详情 --</h1>
+		<table class="am-table am-table-striped am-table-hover">
+		<thead>
+  <tr>
+  
+    <th>编号</th>
+    <th style="text-align: center">活动名称</th>
+	<th>所属类别</th>
+    <th>得分</th>
+  </tr>
+  </thead>
+  <tbody>
+  {foreach name="arr" item="vo"}
+
+  <tr>
+      <td>{$vo->id}</td>
+      <td>{$vo->name}</td>
+      <td>{$vo->type}</td>
+      <td>{$vo->score}</td>
+  </tr>
+
+{/foreach}
+  </tbody>
+  </table>
+        <hr>
+    <table style="width: 100%">
+        <tr style="width: 100%">
+            <td >其他学分:{$defaultscore}分</td>
+            <td style="text-align: right">总学分:{$sumscore+$defaultscore}分</td>
+        </tr>
+    </table>
+
+
+    </div>
+
+
+
+{/block}

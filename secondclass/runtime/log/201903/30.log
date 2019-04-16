@@ -1,0 +1,2960 @@
+---------------------------------------------------------------
+[ 2019-03-30T01:42:38+08:00 ] 140.205.127.154 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/news/id/52.html
+[运行时间：0.034812s] [吞吐率：28.73req/s] [内存消耗：2,955.96kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000948s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'proxy-connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'eagleeye-traceid' => '8ccd7f9715538813585938363e',
+  'via' => 'l2cm9.l2, cache26.l2cm9',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '52',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001402s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->news[ /var/www/www.gxfwz36524.com/secondclass/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/view/index/news.html [ array (
+  0 => 'settinginfo',
+  1 => 'navinfo',
+  2 => 'slider',
+  3 => 'actinfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:00+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/index.php
+[运行时间：0.034999s] [吞吐率：28.57req/s] [内存消耗：2,970.42kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000912s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334001521777e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cm12.l2, cache4.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001421s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/view/index/index.html [ array (
+  0 => 'settinginfo',
+  1 => 'navinfo',
+  2 => 'slider',
+  3 => 'actinfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:02+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php
+[运行时间：0.028958s] [吞吐率：34.53req/s] [内存消耗：2,495.52kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000987s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334024126512e',
+  'via' => 'cn1550.l1, kunlun7.cn1550, l2cm12.l2, cache18.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001413s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000172s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:10:06+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php
+[运行时间：0.029476s] [吞吐率：33.93req/s] [内存消耗：2,849.45kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000948s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334058225753e',
+  'via' => 'cn1550.l1, kunlun5.cn1550, l2cn1807.l2, cache33.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/secondclass/public/admin.php',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001646s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000084s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:10:06+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/index.php?s=/captcha
+[运行时间：0.018358s] [吞吐率：54.47req/s] [内存消耗：1,709.18kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000921s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334063856899e',
+  'via' => 'cn1550.l1, kunlun4.cn1550, l2cm12.l2, cache3.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/www/www.gxfwz36524.com/secondclass/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:10:08+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=index&v=1553933406
+[运行时间：0.027593s] [吞吐率：36.24req/s] [内存消耗：2,761.48kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000896s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334086413585e',
+  'via' => 'cn1550.l1, kunlun9.cn1550, l2cn1807.l2, cache8.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1553933406',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001382s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000087s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:10:18+08:00 ] 106.9.87.155 POST www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php
+[运行时间：0.046861s] [吞吐率：21.34req/s] [内存消耗：3,601.51kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000922s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://www.gxfwz36524.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'content-length' => '86',
+  'eagleeye-traceid' => '7cec149515539334181316863e',
+  'via' => 'cn1550.l1, kunlun1.cn1550, l2cn1807.l2, cache4.l2cn1807',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/secondclass/public/admin.php',
+  '__token__' => '880882337a971e6f34bca798a46ea782',
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'HNKX',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001410s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004568s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `logintime`=1553933418,`token`='88b21208-53cd-48fb-8242-a1b42c7d28b6',`updatetime`=1553933418  WHERE  `id` = 1 [ RunTime:0.003815s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/secondclass\\/public\\/admin.php\",\"__token__\":\"880882337a971e6f34bca798a46ea782\",\"username\":\"admin\",\"captcha\":\"HNKX\"}' , '/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36' , '106.9.87.155' , 1553933418) [ RunTime:0.002930s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:18+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php
+[运行时间：0.071296s] [吞吐率：14.03req/s] [内存消耗：3,812.48kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000893s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334185037574e',
+  'via' => 'cn1550.l1, kunlun7.cn1550, l2cm12.l2, cache18.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001390s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000105s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:20+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=index&v=1553933418
+[运行时间：0.029832s] [吞吐率：33.52req/s] [内存消耗：2,762.16kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000944s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334207344036e',
+  'via' => 'cn1550.l1, kunlun10.cn1550, l2cn1807.l2, cache23.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1553933418',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001445s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000091s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:10:23+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?addtabs=1
+[运行时间：0.044168s] [吞吐率：22.64req/s] [内存消耗：3,751.91kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000857s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334235961858e',
+  'via' => 'cn1550.l1, kunlun1.cn1550, l2cn1807.l2, cache26.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001285s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Admin.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/auth/admin/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'groupdata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:24+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?addtabs=1
+[运行时间：0.041965s] [吞吐率：23.83req/s] [内存消耗：3,762.13kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000871s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334244583487e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cm12.l2, cache13.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001398s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/auth/rule/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `auth_rule` WHERE  `name` = 'auth/rule' LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:25+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=auth.admin&v=1553933423
+[运行时间：0.027913s] [吞吐率：35.83req/s] [内存消耗：2,757.35kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000866s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334255995671e',
+  'via' => 'cn1550.l1, kunlun5.cn1550, l2cm12.l2, cache18.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.admin',
+  'v' => '1553933423',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001992s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000096s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:10:25+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=auth.rule&v=1553933424
+[运行时间：0.028714s] [吞吐率：34.83req/s] [内存消耗：2,758.58kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000816s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334256785825e',
+  'via' => 'cn1550.l1, kunlun7.cn1550, l2cn1807.l2, cache24.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1553933424',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001412s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000080s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:10:27+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule/index?sort=weigh&order=desc&_=1553933423127
+[运行时间：0.043852s] [吞吐率：22.80req/s] [内存消耗：3,746.30kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000853s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334275001772e',
+  'via' => 'cn1550.l1, kunlun2.cn1550, l2cn1807.l2, cache9.l2cn1807',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1553933423127',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001843s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000083s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000405s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000781s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:28+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1553933422680
+[运行时间：0.046143s] [吞吐率：21.67req/s] [内存消耗：3,743.80kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000791s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334289134662e',
+  'via' => 'cn1550.l1, kunlun9.cn1550, l2cn1807.l2, cache42.l2cn1807',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1553933422680',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001440s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Admin.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000103s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `id` IN (1,2,3) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `admin` WHERE  `id` IN (1,2,3) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:30+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule/edit/ids/3?dialog=1
+[运行时间：0.044824s] [吞吐率：22.31req/s] [内存消耗：3,924.45kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000901s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334300336846e',
+  'via' => 'cn1550.l1, kunlun2.cn1550, l2cm12.l2, cache1.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '3',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001331s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->edit[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/auth/rule/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000083s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000363s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:31+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=auth.rule&v=1553933430
+[运行时间：0.025400s] [吞吐率：39.37req/s] [内存消耗：2,758.70kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000820s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule/edit/ids/3?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334313961318e',
+  'via' => 'cn1550.l1, kunlun4.cn1550, l2cn1807.l2, cache13.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1553933430',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001236s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000076s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:10:34+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1553933422681
+[运行时间：0.048062s] [吞吐率：20.81req/s] [内存消耗：3,743.80kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000950s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334347428091e',
+  'via' => 'cn1550.l1, kunlun3.cn1550, l2cn1807.l2, cache33.l2cn1807',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1553933422681',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001534s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Admin.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001152s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `id` IN (1,2,3) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `admin` WHERE  `id` IN (1,2,3) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:40+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/
+[运行时间：0.035536s] [吞吐率：28.14req/s] [内存消耗：2,975.52kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000937s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334401332981e',
+  'via' => 'cn1550.l1, kunlun8.cn1550, l2cn1807.l2, cache44.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001382s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/view/index/index.html [ array (
+  0 => 'settinginfo',
+  1 => 'navinfo',
+  2 => 'slider',
+  3 => 'actinfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:10:49+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule/index?sort=weigh&order=desc&_=1553933423128
+[运行时间：0.041028s] [吞吐率：24.37req/s] [内存消耗：3,746.35kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000947s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334492244971e',
+  'via' => 'cn1550.l1, kunlun4.cn1550, l2cn1807.l2, cache38.l2cn1807',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1553933423128',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001399s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000100s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000768s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:11:01+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/
+[运行时间：0.072155s] [吞吐率：13.86req/s] [内存消耗：3,810.89kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000874s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334612145212e',
+  'via' => 'cn1550.l1, kunlun10.cn1550, l2cn1807.l2, cache4.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001372s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000086s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000673s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:11:03+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=index&v=1553933461
+[运行时间：0.038805s] [吞吐率：25.77req/s] [内存消耗：2,762.42kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001261s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334633381460e',
+  'via' => 'cn1550.l1, kunlun7.cn1550, l2cn1807.l2, cache47.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1553933461',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002012s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000107s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:11:04+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?addtabs=1
+[运行时间：0.041956s] [吞吐率：23.83req/s] [内存消耗：3,752.05kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000805s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334649414806e',
+  'via' => 'cn1550.l1, kunlun1.cn1550, l2cm12.l2, cache12.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001283s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Admin.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/auth/admin/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'groupdata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000082s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:11:06+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=auth.admin&v=1553933464
+[运行时间：0.026124s] [吞吐率：38.28req/s] [内存消耗：2,757.74kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000836s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334660647130e',
+  'via' => 'cn1550.l1, kunlun2.cn1550, l2cn1807.l2, cache37.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.admin',
+  'v' => '1553933464',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001306s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:11:08+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1553933463450
+[运行时间：0.045382s] [吞吐率：22.04req/s] [内存消耗：3,744.39kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000826s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334679432881e',
+  'via' => 'cn1550.l1, kunlun9.cn1550, l2cn1807.l2, cache45.l2cn1807',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1553933463450',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001420s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Admin.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `id` IN (1,2,3) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `admin` WHERE  `id` IN (1,2,3) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000343s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:11:29+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?ref=addtabs
+[运行时间：0.025592s] [吞吐率：39.07req/s] [内存消耗：2,514.98kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000889s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-encoding' => 'gzip, deflate, br',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539334897506459e',
+  'via' => 'cn1550.l1, kunlun8.cn1550, l2cn1807.l2, cache34.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001426s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000091s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:11:31+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/admin/edit/ids/3?dialog=1
+[运行时间：0.042275s] [吞吐率：23.65req/s] [内存消耗：3,762.38kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000819s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334916743480e',
+  'via' => 'cn1550.l1, kunlun9.cn1550, l2cm12.l2, cache2.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '3',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001221s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->edit[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Admin.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/auth/admin/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'groupdata',
+  6 => 'row',
+  7 => 'groupids',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000075s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='3' and ag.status='normal' ) [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:11:33+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=auth.admin&v=1553933491
+[运行时间：0.026506s] [吞吐率：37.73req/s] [内存消耗：2,757.74kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000833s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin/edit/ids/3?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334931316678e',
+  'via' => 'cn1550.l1, kunlun1.cn1550, l2cn1807.l2, cache21.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.admin',
+  'v' => '1553933491',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001303s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000094s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:11:33+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php%2Fauth%2Fadmin%3Fref%3Daddtabs
+[运行时间：0.028718s] [吞吐率：34.82req/s] [内存消耗：2,849.46kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000829s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'PHPSESSID=03hdib0krp94plm3ict96jlluf',
+  'accept-encoding' => 'gzip, deflate, br',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/admin?ref=addtabs',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539334932975672e',
+  'via' => 'cn1550.l1, kunlun10.cn1550, l2cn1807.l2, cache35.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/secondclass/public/admin.php/auth/admin?ref=addtabs',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001420s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000078s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:11:33+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/index.php?s=/captcha
+[运行时间：0.018912s] [吞吐率：52.88req/s] [内存消耗：1,709.24kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000894s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'PHPSESSID=03hdib0krp94plm3ict96jlluf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php%2Fauth%2Fadmin%3Fref%3Daddtabs',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539334934605986e',
+  'via' => 'cn1550.l1, kunlun4.cn1550, l2cm12.l2, cache3.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/www/www.gxfwz36524.com/secondclass/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:11:35+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=index&v=1553933493
+[运行时间：0.026091s] [吞吐率：38.33req/s] [内存消耗：2,761.49kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000816s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'PHPSESSID=03hdib0krp94plm3ict96jlluf',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php%2Fauth%2Fadmin%3Fref%3Daddtabs',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539334952961902e',
+  'via' => 'cn1550.l1, kunlun5.cn1550, l2cm12.l2, cache13.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1553933493',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001285s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000076s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:11:37+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?addtabs=1
+[运行时间：0.041011s] [吞吐率：24.38req/s] [内存消耗：3,762.22kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000808s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334977318440e',
+  'via' => 'cn1550.l1, kunlun6.cn1550, l2cm12.l2, cache13.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001287s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/auth/rule/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000120s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `auth_rule` WHERE  `name` = 'auth/rule' LIMIT 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:11:38+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=auth.rule&v=1553933497
+[运行时间：0.026002s] [吞吐率：38.46req/s] [内存消耗：2,758.92kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000821s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539334987942767e',
+  'via' => 'cn1550.l1, kunlun10.cn1550, l2cn1807.l2, cache25.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1553933497',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001358s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000078s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:11:40+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule/index?sort=weigh&order=desc&_=1553933496140
+[运行时间：0.043158s] [吞吐率：23.17req/s] [内存消耗：3,746.95kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000947s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539335006926740e',
+  'via' => 'cn1550.l1, kunlun1.cn1550, l2cn1807.l2, cache17.l2cn1807',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1553933496140',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001437s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000084s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000864s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:11:43+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule/edit/ids/3?dialog=1
+[运行时间：0.045394s] [吞吐率：22.03req/s] [内存消耗：3,775.29kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000851s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539335034334402e',
+  'via' => 'cn1550.l1, kunlun2.cn1550, l2cm12.l2, cache1.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '3',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001462s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->edit[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/auth/rule/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000081s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:11:44+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=auth.rule&v=1553933503
+[运行时间：0.026849s] [吞吐率：37.25req/s] [内存消耗：2,758.92kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000814s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=ggk3k7g8sts0bpl39ci6m8t41p',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/auth/rule/edit/ids/3?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149515539335048527453e',
+  'via' => 'cn1550.l1, kunlun3.cn1550, l2cn1807.l2, cache42.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1553933503',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001358s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000094s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:12:05+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/index/llogin
+[运行时间：0.037553s] [吞吐率：26.63req/s] [内存消耗：2,497.39kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001273s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'llogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=03hdib0krp94plm3ict96jlluf',
+  'accept-encoding' => 'gzip, deflate, br',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539335259142273e',
+  'via' => 'cn1550.l1, kunlun8.cn1550, l2cm12.l2, cache20.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002023s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:12:08+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/
+[运行时间：0.040221s] [吞吐率：24.86req/s] [内存消耗：2,973.54kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001179s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'PHPSESSID=03hdib0krp94plm3ict96jlluf',
+  'accept-encoding' => 'gzip, deflate, br',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/llogin',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539335280116881e',
+  'via' => 'cn1550.l1, kunlun8.cn1550, l2cm12.l2, cache10.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001960s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/view/index/index.html [ array (
+  0 => 'settinginfo',
+  1 => 'navinfo',
+  2 => 'slider',
+  3 => 'actinfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-03-30T16:12:12+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/index/llogin
+[运行时间：0.024111s] [吞吐率：41.47req/s] [内存消耗：2,497.48kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000821s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'llogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=03hdib0krp94plm3ict96jlluf',
+  'accept-encoding' => 'gzip, deflate, br',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539335328868884e',
+  'via' => 'cn1550.l1, kunlun8.cn1550, l2cm12.l2, cache20.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001318s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:12:16+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php%2Findex%2Fllogin
+[运行时间：0.028742s] [吞吐率：34.79req/s] [内存消耗：2,850.88kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000868s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=03hdib0krp94plm3ict96jlluf',
+  'accept-encoding' => 'gzip, deflate, br',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/llogin',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539335360867676e',
+  'via' => 'cn1550.l1, kunlun10.cn1550, l2cn1807.l2, cache41.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/secondclass/public/admin.php/index/llogin',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001344s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000077s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:12:16+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/index.php?s=/captcha
+[运行时间：0.017858s] [吞吐率：56.00req/s] [内存消耗：1,709.66kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000909s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=03hdib0krp94plm3ict96jlluf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php%2Findex%2Fllogin',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539335362367958e',
+  'via' => 'cn1550.l1, kunlun4.cn1550, l2cn1807.l2, cache25.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/www/www.gxfwz36524.com/secondclass/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:12:17+08:00 ] 106.9.87.155 GET www.gxfwz36524.com/secondclass/public/admin.php/ajax/lang?callback=define&controllername=index&v=1553933536
+[运行时间：0.027274s] [吞吐率：36.67req/s] [内存消耗：2,761.49kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000875s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=03hdib0krp94plm3ict96jlluf',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'referer' => 'https://www.gxfwz36524.com/secondclass/public/admin.php/index/login?url=%2Fsecondclass%2Fpublic%2Fadmin.php%2Findex%2Fllogin',
+  'ali-cdn-real-ip' => '106.9.87.155',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '106.9.87.155',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '7cec149c15539335371971807e',
+  'via' => 'cn1550.l1, kunlun9.cn1550, l2cm12.l2, cache13.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1553933536',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001368s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/www/www.gxfwz36524.com/secondclass/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000077s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:12:23+08:00 ] 183.3.239.161 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?ref=addtabs
+[运行时间：0.025040s] [吞吐率：39.94req/s] [内存消耗：2,490.59kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000945s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept' => '*/*',
+  'user-agent' => 'Wget/1.12 (linux-gnu)',
+  'ali-cdn-real-ip' => '183.3.239.161',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '183.3.239.161',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '3d93df1d15539335429352245e',
+  'via' => 'cn615.l1, cache3.cn615, l2cn1807.l2, cache2.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001291s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000094s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:12:46+08:00 ] 101.89.29.86 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?ref=addtabs
+[运行时间：0.023993s] [吞吐率：41.68req/s] [内存消耗：2,445.84kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000846s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '101.89.29.86',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '101.89.29.86',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => 'deba319715539335658541086e',
+  'via' => 'cn74.l1, kunlun1.cn74, l2cm9.l2, cache31.l2cm9',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001236s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000094s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T16:13:24+08:00 ] 61.129.6.227 GET www.gxfwz36524.com/secondclass/public/admin.php/auth/rule?ref=addtabs
+[运行时间：0.024733s] [吞吐率：40.43req/s] [内存消耗：2,445.84kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000864s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '61.129.6.227',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '61.129.6.227',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => 'deba319a15539336043298466e',
+  'via' => 'cn74.l1, kunlun1.cn74, l2cm9.l2, cache31.l2cm9',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001276s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000103s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T18:09:16+08:00 ] 58.251.121.185 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/index
+[运行时间：0.034096s] [吞吐率：29.33req/s] [内存消耗：2,970.31kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000892s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'referer' => 'https://url.cn/53MfDrv',
+  'accept-encoding' => 'deflate, gzip',
+  'ali-cdn-real-ip' => '58.251.121.185',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '58.251.121.185',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '8cf93d2215539405566037786e',
+  'via' => 'cn1596.l1, kunlun4.cn1596, l2cm9.l2, cache22.l2cm9',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001333s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/view/index/index.html [ array (
+  0 => 'settinginfo',
+  1 => 'navinfo',
+  2 => 'slider',
+  3 => 'actinfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2019-03-30T18:09:17+08:00 ] 223.104.13.62 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/index
+[运行时间：0.040719s] [吞吐率：24.56req/s] [内存消耗：2,968.48kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000863s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1) QQBrowser/9.0',
+  'ali-cdn-real-ip' => '223.104.13.62',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '223.104.13.62',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '70366c1b15539405573953435e',
+  'via' => 'cn1478.l1, kunlun9.cn1478, l2cm9.l2, cache22.l2cm9',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001294s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/view/index/index.html [ array (
+  0 => 'settinginfo',
+  1 => 'navinfo',
+  2 => 'slider',
+  3 => 'actinfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.003937s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.003448s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2019-03-30T18:09:17+08:00 ] 14.116.133.169 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/index
+[运行时间：0.041143s] [吞吐率：24.31req/s] [内存消耗：2,971.56kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000862s ]
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'referer' => 'https://url.cn/53MfDrv',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '14.116.133.169',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '14.116.133.169',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => 'b739529615539405572885689e',
+  'via' => 'cn462.l1, kunlun10.cn462, l2cn1807.l2, cache16.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001304s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/view/index/index.html [ array (
+  0 => 'settinginfo',
+  1 => 'navinfo',
+  2 => 'slider',
+  3 => 'actinfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2019-03-30T18:09:18+08:00 ] 61.151.178.179 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/index
+[运行时间：0.034857s] [吞吐率：28.69req/s] [内存消耗：2,927.23kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001005s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'x-https' => '1',
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '61.151.178.179',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '61.151.178.179',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '3ad7912015539405580262619e',
+  'via' => 'cn190.l1, kunlun7.cn190, l2cm12.l2, cache6.l2cm12',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001415s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/view/index/index.html [ array (
+  0 => 'settinginfo',
+  1 => 'navinfo',
+  2 => 'slider',
+  3 => 'actinfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-03-30T18:10:17+08:00 ] 58.247.206.146 GET www.gxfwz36524.com/secondclass/public/index.php/index/index/index
+[运行时间：0.034837s] [吞吐率：28.71req/s] [内存消耗：2,925.35kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000916s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.gxfwz36524.com',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MX4 Pro Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '58.247.206.146',
+  'x-client-scheme' => 'https',
+  'x-forwarded-for' => '58.247.206.146',
+  'ali-swift-stat-host' => 'all.gxfwz36524.com',
+  'ali-swift-log-host' => 'www.gxfwz36524.com',
+  'eagleeye-traceid' => '8cf93d2715539406177224855e',
+  'via' => 'cn1596.l1, kunlun4.cn1596, l2cn1807.l2, cache16.l2cn1807',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001355s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/www.gxfwz36524.com/secondclass/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/www.gxfwz36524.com/secondclass/public/../application/index/view/index/index.html [ array (
+  0 => 'settinginfo',
+  1 => 'navinfo',
+  2 => 'slider',
+  3 => 'actinfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `settinginfo` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT * FROM `settinginfo` LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_navinfo` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_navinfo` WHERE  `display` = 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activeinfo` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `activeinfo` WHERE  `switch` = 1 ORDER BY `time` DESC,`id` DESC [ RunTime:0.000513s ]

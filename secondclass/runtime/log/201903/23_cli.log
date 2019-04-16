@@ -1,0 +1,893 @@
+[ 2019-03-23T20:10:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:10:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:10:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001329s ]
+[ 2019-03-23T20:10:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:10:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002482s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:10:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000767s ]
+[ 2019-03-23T20:11:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:11:12+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:11:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000960s ]
+[ 2019-03-23T20:11:12+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001963s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000590s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001673s ]
+[ 2019-03-23T20:11:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000140s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:11:12+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:11:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001040s ]
+[ 2019-03-23T20:11:12+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:11:12+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001941s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001565s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeuserinfo' LIMIT 1 [ RunTime:0.000443s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'activeuserinfo' , '学生基本信息管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1553343072 , 1553343072) [ RunTime:0.028182s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeuserinfo/index' LIMIT 1 [ RunTime:0.000424s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeuserinfo/add' LIMIT 1 [ RunTime:0.000267s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeuserinfo/edit' LIMIT 1 [ RunTime:0.000259s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeuserinfo/del' LIMIT 1 [ RunTime:0.000248s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeuserinfo/multi' LIMIT 1 [ RunTime:0.000232s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 199 , 'activeuserinfo/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1553343072 , 1553343072) [ RunTime:0.000309s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 199 , 'activeuserinfo/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1553343072 , 1553343072) [ RunTime:0.000263s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 199 , 'activeuserinfo/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1553343072 , 1553343072) [ RunTime:0.000256s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 199 , 'activeuserinfo/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1553343072 , 1553343072) [ RunTime:0.000275s ]
+[ 2019-03-23T20:11:12+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 199 , 'activeuserinfo/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1553343072 , 1553343072) [ RunTime:0.000269s ]
+[ 2019-03-23T20:14:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:14:00+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:14:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001145s ]
+[ 2019-03-23T20:14:00+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:14:00+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002148s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:14:00+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000702s ]
+[ 2019-03-23T20:14:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000141s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:14:08+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:14:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000987s ]
+[ 2019-03-23T20:14:08+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:14:08+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001986s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:14:08+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000604s ]
+[ 2019-03-23T20:14:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:14:15+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:14:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000959s ]
+[ 2019-03-23T20:14:15+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:14:15+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002196s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:14:15+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000620s ]
+[ 2019-03-23T20:18:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:18:21+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:18:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000999s ]
+[ 2019-03-23T20:18:21+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:18:21+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001952s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:18:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000627s ]
+[ 2019-03-23T20:18:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000434s ]
+[ 2019-03-23T20:18:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001592s ]
+[ 2019-03-23T20:18:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.002048s ]
+[ 2019-03-23T20:18:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000155s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:18:50+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:18:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001078s ]
+[ 2019-03-23T20:18:50+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:18:50+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002052s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:18:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000654s ]
+[ 2019-03-23T20:18:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000460s ]
+[ 2019-03-23T20:23:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:23:19+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:23:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000954s ]
+[ 2019-03-23T20:23:19+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:23:19+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001983s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001560s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000482s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000299s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000238s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000244s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000247s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000239s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553343799  WHERE  `id` = 194 [ RunTime:0.000322s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553343799  WHERE  `id` = 195 [ RunTime:0.000274s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553343799  WHERE  `id` = 196 [ RunTime:0.000275s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553343799  WHERE  `id` = 197 [ RunTime:0.000272s ]
+[ 2019-03-23T20:23:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553343799  WHERE  `id` = 198 [ RunTime:0.000267s ]
+[ 2019-03-23T20:24:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000133s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:24:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:24:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000956s ]
+[ 2019-03-23T20:24:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:24:07+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002012s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001512s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000491s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000262s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000251s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000239s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000239s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000251s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553343847  WHERE  `id` = 194 [ RunTime:0.000317s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553343847  WHERE  `id` = 195 [ RunTime:0.000281s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553343847  WHERE  `id` = 196 [ RunTime:0.000260s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553343847  WHERE  `id` = 197 [ RunTime:0.000269s ]
+[ 2019-03-23T20:24:07+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553343847  WHERE  `id` = 198 [ RunTime:0.000255s ]
+[ 2019-03-23T20:24:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:24:10+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:24:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000949s ]
+[ 2019-03-23T20:24:10+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:24:10+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001991s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:24:10+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000613s ]
+[ 2019-03-23T20:24:10+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000438s ]
+[ 2019-03-23T20:24:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:24:43+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:24:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000927s ]
+[ 2019-03-23T20:24:43+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:24:43+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001966s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001503s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000471s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000265s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000254s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000239s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000249s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000271s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553343883  WHERE  `id` = 194 [ RunTime:0.000336s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553343883  WHERE  `id` = 195 [ RunTime:0.000307s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553343883  WHERE  `id` = 196 [ RunTime:0.000261s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553343883  WHERE  `id` = 197 [ RunTime:0.000275s ]
+[ 2019-03-23T20:24:43+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553343883  WHERE  `id` = 198 [ RunTime:0.000258s ]
+[ 2019-03-23T20:24:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000153s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:24:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:24:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000982s ]
+[ 2019-03-23T20:24:47+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:24:47+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001959s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001535s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000494s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000335s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000273s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000255s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000246s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000293s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553343887  WHERE  `id` = 194 [ RunTime:0.000309s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553343887  WHERE  `id` = 195 [ RunTime:0.000286s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553343887  WHERE  `id` = 196 [ RunTime:0.000256s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553343887  WHERE  `id` = 197 [ RunTime:0.000267s ]
+[ 2019-03-23T20:24:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553343887  WHERE  `id` = 198 [ RunTime:0.000280s ]
+[ 2019-03-23T20:37:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:37:18+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:37:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001172s ]
+[ 2019-03-23T20:37:18+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:37:18+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001958s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001839s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000543s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000302s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000269s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000268s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000255s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000249s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553344638  WHERE  `id` = 194 [ RunTime:0.000329s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553344638  WHERE  `id` = 195 [ RunTime:0.000338s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553344638  WHERE  `id` = 196 [ RunTime:0.000292s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553344638  WHERE  `id` = 197 [ RunTime:0.000265s ]
+[ 2019-03-23T20:37:18+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553344638  WHERE  `id` = 198 [ RunTime:0.000272s ]
+[ 2019-03-23T20:37:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:37:19+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:37:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001024s ]
+[ 2019-03-23T20:37:19+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:37:19+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001943s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001514s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000459s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000256s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000238s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000253s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000235s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000229s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553344639  WHERE  `id` = 194 [ RunTime:0.000321s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553344639  WHERE  `id` = 195 [ RunTime:0.000317s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553344639  WHERE  `id` = 196 [ RunTime:0.000258s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553344639  WHERE  `id` = 197 [ RunTime:0.000302s ]
+[ 2019-03-23T20:37:19+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553344639  WHERE  `id` = 198 [ RunTime:0.000268s ]
+[ 2019-03-23T20:38:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:38:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:38:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000945s ]
+[ 2019-03-23T20:38:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:38:46+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001988s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:38:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000614s ]
+[ 2019-03-23T20:39:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:39:59+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:39:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000963s ]
+[ 2019-03-23T20:39:59+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:39:59+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002011s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:39:59+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000606s ]
+[ 2019-03-23T20:40:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000145s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:40:15+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:40:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001056s ]
+[ 2019-03-23T20:40:15+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:40:15+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002083s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:40:15+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000624s ]
+[ 2019-03-23T20:41:29+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000147s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:41:29+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:41:29+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001008s ]
+[ 2019-03-23T20:41:29+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:41:29+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002002s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:41:29+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000667s ]
+[ 2019-03-23T20:43:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:43:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:43:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000983s ]
+[ 2019-03-23T20:43:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:43:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002013s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:43:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000647s ]
+[ 2019-03-23T20:47:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:47:40+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:47:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000941s ]
+[ 2019-03-23T20:47:40+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:47:40+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002044s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:47:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000597s ]
+[ 2019-03-23T20:47:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000443s ]
+[ 2019-03-23T20:47:40+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001610s ]
+[ 2019-03-23T20:47:40+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.002257s ]
+[ 2019-03-23T20:47:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000188s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:47:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:47:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001434s ]
+[ 2019-03-23T20:47:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:47:49+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002575s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:47:49+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000852s ]
+[ 2019-03-23T20:47:49+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000650s ]
+[ 2019-03-23T20:49:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:49:08+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:49:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000968s ]
+[ 2019-03-23T20:49:08+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:49:08+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002027s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:49:08+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000626s ]
+[ 2019-03-23T20:49:08+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000466s ]
+[ 2019-03-23T20:49:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:49:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:49:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000933s ]
+[ 2019-03-23T20:49:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:49:16+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002025s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:49:16+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000604s ]
+[ 2019-03-23T20:52:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000141s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:52:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:52:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000947s ]
+[ 2019-03-23T20:52:26+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:52:26+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002081s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:52:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000674s ]
+[ 2019-03-23T20:52:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000464s ]
+[ 2019-03-23T20:53:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000133s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:53:19+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:53:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000990s ]
+[ 2019-03-23T20:53:19+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:53:19+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002101s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:53:19+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000693s ]
+[ 2019-03-23T20:53:19+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000462s ]
+[ 2019-03-23T20:53:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T20:53:57+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T20:53:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001120s ]
+[ 2019-03-23T20:53:57+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T20:53:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002013s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T20:53:57+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000625s ]
+[ 2019-03-23T20:53:57+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000458s ]
+[ 2019-03-23T20:53:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001655s ]
+[ 2019-03-23T20:53:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001512s ]
+[ 2019-03-23T21:00:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000146s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:00:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:00:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001064s ]
+[ 2019-03-23T21:00:14+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:00:14+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002112s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:00:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000659s ]
+[ 2019-03-23T21:00:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:00:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:00:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000990s ]
+[ 2019-03-23T21:00:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001988s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000644s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001784s ]
+[ 2019-03-23T21:00:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:00:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:00:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000934s ]
+[ 2019-03-23T21:00:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:00:49+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001931s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001611s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000455s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000251s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000245s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000229s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000265s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000235s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553346049  WHERE  `id` = 194 [ RunTime:0.000316s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553346049  WHERE  `id` = 195 [ RunTime:0.000257s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553346049  WHERE  `id` = 196 [ RunTime:0.000280s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553346049  WHERE  `id` = 197 [ RunTime:0.000258s ]
+[ 2019-03-23T21:00:49+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553346049  WHERE  `id` = 198 [ RunTime:0.000269s ]
+[ 2019-03-23T21:02:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:02:11+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:02:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001002s ]
+[ 2019-03-23T21:02:11+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:02:11+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002230s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001779s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000518s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000320s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000249s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000278s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000267s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000283s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553346131  WHERE  `id` = 194 [ RunTime:0.000311s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553346131  WHERE  `id` = 195 [ RunTime:0.000290s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553346131  WHERE  `id` = 196 [ RunTime:0.000289s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553346131  WHERE  `id` = 197 [ RunTime:0.000282s ]
+[ 2019-03-23T21:02:11+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553346131  WHERE  `id` = 198 [ RunTime:0.000330s ]
+[ 2019-03-23T21:03:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000141s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:03:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:03:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001029s ]
+[ 2019-03-23T21:03:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:03:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001951s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:03:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000624s ]
+[ 2019-03-23T21:03:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000481s ]
+[ 2019-03-23T21:03:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001600s ]
+[ 2019-03-23T21:03:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001598s ]
+[ 2019-03-23T21:06:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:06:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:06:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001005s ]
+[ 2019-03-23T21:06:47+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:06:47+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002002s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001533s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000469s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000270s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000239s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000250s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000237s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000247s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553346407  WHERE  `id` = 194 [ RunTime:0.000308s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553346407  WHERE  `id` = 195 [ RunTime:0.000271s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553346407  WHERE  `id` = 196 [ RunTime:0.000273s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553346407  WHERE  `id` = 197 [ RunTime:0.000258s ]
+[ 2019-03-23T21:06:47+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553346407  WHERE  `id` = 198 [ RunTime:0.000271s ]
+[ 2019-03-23T21:44:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:44:21+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:44:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000950s ]
+[ 2019-03-23T21:44:21+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:44:21+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001984s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:44:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000638s ]
+[ 2019-03-23T21:44:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000463s ]
+[ 2019-03-23T21:44:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001615s ]
+[ 2019-03-23T21:44:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001627s ]
+[ 2019-03-23T21:46:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000149s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:46:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:46:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001030s ]
+[ 2019-03-23T21:46:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:46:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:46:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000962s ]
+[ 2019-03-23T21:46:14+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:46:14+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001946s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001511s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activejoin' LIMIT 1 [ RunTime:0.000447s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'activejoin' , '报名中心' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1553348774 , 1553348774) [ RunTime:0.003875s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activejoin/index' LIMIT 1 [ RunTime:0.000391s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activejoin/add' LIMIT 1 [ RunTime:0.000272s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activejoin/edit' LIMIT 1 [ RunTime:0.000243s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activejoin/del' LIMIT 1 [ RunTime:0.000241s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activejoin/multi' LIMIT 1 [ RunTime:0.000237s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'activejoin/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1553348774 , 1553348774) [ RunTime:0.000305s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'activejoin/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1553348774 , 1553348774) [ RunTime:0.000265s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'activejoin/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1553348774 , 1553348774) [ RunTime:0.000247s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'activejoin/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1553348774 , 1553348774) [ RunTime:0.000255s ]
+[ 2019-03-23T21:46:14+08:00 ][ sql ] [ SQL ] INSERT INTO `auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 205 , 'activejoin/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1553348774 , 1553348774) [ RunTime:0.000246s ]
+[ 2019-03-23T21:59:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:59:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:59:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001029s ]
+[ 2019-03-23T21:59:02+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:59:02+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001925s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:59:02+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000602s ]
+[ 2019-03-23T21:59:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T21:59:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T21:59:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001064s ]
+[ 2019-03-23T21:59:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T21:59:07+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002079s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T21:59:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000711s ]
+[ 2019-03-23T22:03:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:03:30+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:03:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000937s ]
+[ 2019-03-23T22:03:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:03:45+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:03:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000980s ]
+[ 2019-03-23T22:03:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000144s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:03:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:03:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001114s ]
+[ 2019-03-23T22:07:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:07:37+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:07:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000956s ]
+[ 2019-03-23T22:07:37+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:07:37+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001971s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:07:37+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'Activeinfo' [ RunTime:0.000544s ]
+[ 2019-03-23T22:07:37+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'Activeinfo' [ RunTime:0.000406s ]
+[ 2019-03-23T22:10:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:10:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:10:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001070s ]
+[ 2019-03-23T22:10:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001974s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000615s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001757s ]
+[ 2019-03-23T22:10:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:10:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:10:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000945s ]
+[ 2019-03-23T22:10:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:10:16+08:00 ][ info ] [ LANG ] /var/www/www.gxfwz36524.com/secondclass/application/admin/lang/zh-cn.php
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001975s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001539s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  `name` = 'activeinfo' LIMIT 1 [ RunTime:0.000443s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/index' LIMIT 1 [ RunTime:0.000283s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/add' LIMIT 1 [ RunTime:0.000246s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/edit' LIMIT 1 [ RunTime:0.000240s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/del' LIMIT 1 [ RunTime:0.000229s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `auth_rule` WHERE  `name` = 'activeinfo/multi' LIMIT 1 [ RunTime:0.000223s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1553350216  WHERE  `id` = 194 [ RunTime:0.000335s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1553350216  WHERE  `id` = 195 [ RunTime:0.000288s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1553350216  WHERE  `id` = 196 [ RunTime:0.000300s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1553350216  WHERE  `id` = 197 [ RunTime:0.000273s ]
+[ 2019-03-23T22:10:16+08:00 ][ sql ] [ SQL ] UPDATE `auth_rule`  SET `pid`=193,`name`='activeinfo/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1553350216  WHERE  `id` = 198 [ RunTime:0.000277s ]
+[ 2019-03-23T22:10:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:10:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:10:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001024s ]
+[ 2019-03-23T22:12:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:12:13+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:12:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000956s ]
+[ 2019-03-23T22:12:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:12:24+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:12:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001081s ]
+[ 2019-03-23T22:13:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:13:04+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:13:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001223s ]
+[ 2019-03-23T22:17:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:17:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:17:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000951s ]
+[ 2019-03-23T22:17:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:17:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:17:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001244s ]
+[ 2019-03-23T22:18:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000158s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:18:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:18:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001047s ]
+[ 2019-03-23T22:29:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:29:21+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:29:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001070s ]
+[ 2019-03-23T22:29:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:29:30+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:29:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001061s ]
+[ 2019-03-23T22:29:30+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:29:30+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001982s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:29:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000640s ]
+[ 2019-03-23T22:29:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo,activeuserinfo' [ RunTime:0.000426s ]
+[ 2019-03-23T22:29:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo,activeuserinfo' [ RunTime:0.000398s ]
+[ 2019-03-23T22:30:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:30:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:30:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000951s ]
+[ 2019-03-23T22:31:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:31:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:31:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000933s ]
+[ 2019-03-23T22:33:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000145s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:33:13+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:33:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000996s ]
+[ 2019-03-23T22:33:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000147s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:33:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:33:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000978s ]
+[ 2019-03-23T22:34:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:34:15+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:34:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000978s ]
+[ 2019-03-23T22:35:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000154s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:35:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:35:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001093s ]
+[ 2019-03-23T22:36:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:36:03+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:36:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000947s ]
+[ 2019-03-23T22:38:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:38:38+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:38:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000970s ]
+[ 2019-03-23T22:38:38+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:38:38+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001979s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:38:38+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000598s ]
+[ 2019-03-23T22:38:38+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000436s ]
+[ 2019-03-23T22:38:38+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000412s ]
+[ 2019-03-23T22:39:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000140s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:39:18+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:39:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001053s ]
+[ 2019-03-23T22:39:18+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:39:18+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002089s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:39:18+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000682s ]
+[ 2019-03-23T22:39:18+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000533s ]
+[ 2019-03-23T22:39:18+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000453s ]
+[ 2019-03-23T22:39:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:39:58+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:39:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001001s ]
+[ 2019-03-23T22:39:58+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:39:58+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002081s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:39:58+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000666s ]
+[ 2019-03-23T22:40:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:40:04+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:40:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001035s ]
+[ 2019-03-23T22:40:04+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:40:04+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002102s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:40:04+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000611s ]
+[ 2019-03-23T22:40:04+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000523s ]
+[ 2019-03-23T22:40:04+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000434s ]
+[ 2019-03-23T22:40:04+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001685s ]
+[ 2019-03-23T22:40:04+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001569s ]
+[ 2019-03-23T22:40:04+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001380s ]
+[ 2019-03-23T22:46:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:46:50+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:46:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000961s ]
+[ 2019-03-23T22:46:50+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:46:50+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001961s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:46:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000617s ]
+[ 2019-03-23T22:46:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:46:54+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:46:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000963s ]
+[ 2019-03-23T22:46:54+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:46:54+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001948s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:46:54+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000621s ]
+[ 2019-03-23T22:46:54+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000468s ]
+[ 2019-03-23T22:46:54+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000481s ]
+[ 2019-03-23T22:47:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:47:15+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:47:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001009s ]
+[ 2019-03-23T22:47:15+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:47:15+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001981s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:47:15+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000624s ]
+[ 2019-03-23T22:47:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:47:21+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:47:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001107s ]
+[ 2019-03-23T22:47:21+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:47:21+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002023s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:47:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000613s ]
+[ 2019-03-23T22:47:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000475s ]
+[ 2019-03-23T22:47:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000429s ]
+[ 2019-03-23T22:47:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001708s ]
+[ 2019-03-23T22:47:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001644s ]
+[ 2019-03-23T22:47:21+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001464s ]
+[ 2019-03-23T22:53:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:53:33+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:53:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001008s ]
+[ 2019-03-23T22:53:33+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:53:33+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002006s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:53:33+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000595s ]
+[ 2019-03-23T22:53:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:53:36+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:53:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001135s ]
+[ 2019-03-23T22:53:36+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:53:36+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001990s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:53:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000630s ]
+[ 2019-03-23T22:53:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000439s ]
+[ 2019-03-23T22:53:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000422s ]
+[ 2019-03-23T22:53:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001719s ]
+[ 2019-03-23T22:53:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001604s ]
+[ 2019-03-23T22:53:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001526s ]
+[ 2019-03-23T22:56:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:56:53+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:56:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001022s ]
+[ 2019-03-23T22:56:53+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:56:53+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001998s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:56:53+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000607s ]
+[ 2019-03-23T22:56:53+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000452s ]
+[ 2019-03-23T22:56:53+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000424s ]
+[ 2019-03-23T22:56:53+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activesort' [ RunTime:0.000426s ]
+[ 2019-03-23T22:57:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:57:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:57:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001019s ]
+[ 2019-03-23T22:57:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:57:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001974s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:57:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000650s ]
+[ 2019-03-23T22:57:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:57:12+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:57:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001008s ]
+[ 2019-03-23T22:57:12+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:57:12+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002015s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:57:12+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000648s ]
+[ 2019-03-23T22:57:12+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000541s ]
+[ 2019-03-23T22:57:12+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000460s ]
+[ 2019-03-23T22:57:12+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activesort' [ RunTime:0.000434s ]
+[ 2019-03-23T22:57:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001644s ]
+[ 2019-03-23T22:57:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001648s ]
+[ 2019-03-23T22:57:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001369s ]
+[ 2019-03-23T22:57:12+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activesort' ORDER BY ORDINAL_POSITION [ RunTime:0.001221s ]
+[ 2019-03-23T22:58:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:58:36+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:58:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001071s ]
+[ 2019-03-23T22:58:36+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:58:36+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001974s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:58:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000606s ]
+[ 2019-03-23T22:58:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000439s ]
+[ 2019-03-23T22:58:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000417s ]
+[ 2019-03-23T22:58:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activesort' [ RunTime:0.000436s ]
+[ 2019-03-23T22:58:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001926s ]
+[ 2019-03-23T22:58:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001763s ]
+[ 2019-03-23T22:58:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001511s ]
+[ 2019-03-23T22:58:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activesort' ORDER BY ORDINAL_POSITION [ RunTime:0.001361s ]
+[ 2019-03-23T22:59:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:59:04+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:59:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000938s ]
+[ 2019-03-23T22:59:04+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:59:04+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001972s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:59:04+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000626s ]
+[ 2019-03-23T22:59:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T22:59:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T22:59:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000935s ]
+[ 2019-03-23T22:59:14+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T22:59:14+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002099s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T22:59:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000670s ]
+[ 2019-03-23T22:59:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000492s ]
+[ 2019-03-23T22:59:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000494s ]
+[ 2019-03-23T22:59:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activejoin' ORDER BY ORDINAL_POSITION [ RunTime:0.001680s ]
+[ 2019-03-23T22:59:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001519s ]
+[ 2019-03-23T22:59:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001377s ]
+[ 2019-03-23T23:10:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000140s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:10:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:10:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001055s ]
+[ 2019-03-23T23:10:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:10:49+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002048s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:10:49+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000615s ]
+[ 2019-03-23T23:12:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000150s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:12:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:12:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001077s ]
+[ 2019-03-23T23:12:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:12:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001966s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:12:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000706s ]
+[ 2019-03-23T23:12:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activesort' [ RunTime:0.000477s ]
+[ 2019-03-23T23:12:05+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001909s ]
+[ 2019-03-23T23:12:05+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activesort' ORDER BY ORDINAL_POSITION [ RunTime:0.001442s ]
+[ 2019-03-23T23:13:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:13:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:13:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000948s ]
+[ 2019-03-23T23:13:56+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:13:56+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002008s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:13:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000641s ]
+[ 2019-03-23T23:15:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:15:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:15:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001040s ]
+[ 2019-03-23T23:15:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:15:07+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001911s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:15:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000589s ]
+[ 2019-03-23T23:15:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activesort' [ RunTime:0.000458s ]
+[ 2019-03-23T23:15:07+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001704s ]
+[ 2019-03-23T23:15:07+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activesort' ORDER BY ORDINAL_POSITION [ RunTime:0.001309s ]
+[ 2019-03-23T23:22:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:22:39+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:22:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001049s ]
+[ 2019-03-23T23:22:39+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:22:39+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001962s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:22:39+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000665s ]
+[ 2019-03-23T23:22:39+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000473s ]
+[ 2019-03-23T23:22:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000133s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:22:48+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:22:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001040s ]
+[ 2019-03-23T23:22:48+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:22:48+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001974s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:22:48+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000633s ]
+[ 2019-03-23T23:22:48+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000471s ]
+[ 2019-03-23T23:23:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:23:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:23:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000968s ]
+[ 2019-03-23T23:23:02+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:23:02+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001939s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:23:02+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000589s ]
+[ 2019-03-23T23:23:02+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000471s ]
+[ 2019-03-23T23:23:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:23:08+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:23:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000948s ]
+[ 2019-03-23T23:23:08+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:23:08+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001935s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:23:08+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000626s ]
+[ 2019-03-23T23:23:08+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000450s ]
+[ 2019-03-23T23:23:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:23:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:23:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000962s ]
+[ 2019-03-23T23:23:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:23:16+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002126s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:23:16+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000658s ]
+[ 2019-03-23T23:23:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000155s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:23:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:23:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001005s ]
+[ 2019-03-23T23:23:22+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:23:22+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002112s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:23:22+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000670s ]
+[ 2019-03-23T23:23:22+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000485s ]
+[ 2019-03-23T23:23:22+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001686s ]
+[ 2019-03-23T23:23:22+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001414s ]
+[ 2019-03-23T23:27:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:27:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:27:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000974s ]
+[ 2019-03-23T23:27:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:27:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001983s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:27:01+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000617s ]
+[ 2019-03-23T23:27:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:27:04+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:27:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000952s ]
+[ 2019-03-23T23:27:04+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:27:04+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002004s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:27:04+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000619s ]
+[ 2019-03-23T23:27:04+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000566s ]
+[ 2019-03-23T23:27:04+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001678s ]
+[ 2019-03-23T23:27:04+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001378s ]
+[ 2019-03-23T23:27:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:27:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:27:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000989s ]
+[ 2019-03-23T23:27:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:27:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002043s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:27:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000675s ]
+[ 2019-03-23T23:27:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:27:50+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:27:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000976s ]
+[ 2019-03-23T23:27:50+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:27:50+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:27:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000640s ]
+[ 2019-03-23T23:27:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000467s ]
+[ 2019-03-23T23:27:50+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001744s ]
+[ 2019-03-23T23:27:50+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001455s ]
+[ 2019-03-23T23:28:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:28:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:28:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000971s ]
+[ 2019-03-23T23:28:44+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:28:44+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001956s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:28:44+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000585s ]
+[ 2019-03-23T23:28:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:28:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:28:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000944s ]
+[ 2019-03-23T23:28:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:28:46+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001926s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:28:46+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000595s ]
+[ 2019-03-23T23:28:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000133s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:28:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:28:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000967s ]
+[ 2019-03-23T23:28:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:28:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001980s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:28:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000609s ]
+[ 2019-03-23T23:28:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000477s ]
+[ 2019-03-23T23:28:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001583s ]
+[ 2019-03-23T23:28:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001692s ]
+[ 2019-03-23T23:31:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:31:32+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:31:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000950s ]
+[ 2019-03-23T23:31:32+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:31:32+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002544s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:31:32+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000851s ]
+[ 2019-03-23T23:31:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:31:38+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:31:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000949s ]
+[ 2019-03-23T23:31:38+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:31:38+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002025s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:31:38+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000628s ]
+[ 2019-03-23T23:31:38+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000448s ]
+[ 2019-03-23T23:31:38+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001687s ]
+[ 2019-03-23T23:31:38+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001352s ]
+[ 2019-03-23T23:33:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000144s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:33:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:33:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001040s ]
+[ 2019-03-23T23:33:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:33:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002064s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:33:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activejoin' [ RunTime:0.000737s ]
+[ 2019-03-23T23:33:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000534s ]
+[ 2019-03-23T23:33:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000444s ]
+[ 2019-03-23T23:33:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000175s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:33:13+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:33:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001276s ]
+[ 2019-03-23T23:33:13+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:33:13+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002400s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:33:13+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000839s ]
+[ 2019-03-23T23:34:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:34:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:34:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001225s ]
+[ 2019-03-23T23:34:09+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:34:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001988s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:34:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000656s ]
+[ 2019-03-23T23:34:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:34:24+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:34:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ 2019-03-23T23:34:24+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:34:24+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002011s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:34:24+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000637s ]
+[ 2019-03-23T23:34:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000152s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:34:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:34:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001046s ]
+[ 2019-03-23T23:34:28+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:34:28+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002104s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:34:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000753s ]
+[ 2019-03-23T23:35:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-23T23:35:33+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-23T23:35:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000981s ]
+[ 2019-03-23T23:35:33+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-23T23:35:33+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001987s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-23T23:35:33+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000692s ]

@@ -1,0 +1,228 @@
+{extend name="common/common" /}
+{block name="main"}
+<form class="am-form" method="post" action="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/release" data-am-validator enctype="multipart/form-data">
+    <fieldset>
+        <legend>发布活动</legend>
+
+        <div class="am-form-group">
+            <label for="doc-ipt-email-1">活动名称</label>
+            <input type="text" class="" id="doc-ipt-email-1" placeholder="请输入活动名称" name="activyname" required/>
+        </div>
+
+        <div class="am-form-group">
+            <label for="doc-ipt-pwd-1">主讲人</label>
+            <input type="text" class="" id="doc-ipt-pwd-1" placeholder="请输入主讲人姓名" name="activemain" required/>
+        </div>
+
+        <div id="richtext"></div>
+        <div class="am-form-group" id="rem">
+            <label for="doc-ipt-pwd-1">活动简述</label>
+            <textarea class="" rows="5" id="jianshu" onclick="chuxian()"  placeholder="请简述活动内容" name="jianshu" required/></textarea>
+        </div>
+        <script type="text/javascript">
+           function chuxian() {
+
+               var E = window.wangEditor
+               var editor = new E('#richtext')
+               var $text1 = $('#jianshu')
+               editor.customConfig.onchange = function (html) {
+                   // 监控变化，同步更新到 textarea
+                   $text1.val(html)
+               }
+
+               $("#richtext").before("<label for=\"doc-ipt-pwd-1\">活动简述</label>");
+               $("#rem").css("display","none");
+               $("#jianshu").css("display","none");
+               editor.create()
+               // 初始化 textarea 的值
+               $text1.val(editor.txt.html())
+           }
+        </script>
+
+
+        <div class="am-input-group date" id="datetimepicker" data-date="12-02-2012" data-date-format="yyyy-mm-dd hh:ii" >
+            <label for="doc-ipt-pwd-1" >报名开始时间</label>
+            <p>
+            <div class="am-input-group date form_datetime-1">
+                <input size="16" type="text" value="2015-02-14 14:45" class="am-form-field" readonly name="activedate" required/>
+                <span class="am-input-group-label add-on"><i class="icon-th am-icon-calendar"></i></span>
+            </div>
+            </p>
+        </div>
+        <script>
+
+
+            $('#datetimepicker').datetimepicker({
+                language:  'zh-CN'
+            });
+
+            $('#datetimepicker').datetimepicker({
+                format: 'yyyy-mm-dd hh:ii'
+            });
+
+
+
+        </script>
+
+
+        <div class="am-form-group am-form-file">
+            <label for="doc-ipt-file-2">活动略缩图</label>
+            <div>
+                <button type="button" class="am-btn am-btn-default am-btn-sm">
+                    <i class="am-icon-cloud-upload"></i> 选择要上传的文件</button>
+            </div>
+            <input type="file" id="myfiles" name="file" required pattern="^.*?\.(jpg|jpeg|bmp|png|gif)$"  onchange="verificationPicFile(this)"/>
+            <div id="file"></div>
+        </div>
+
+        <div class="am-form-group">
+            <label for="doc-ipt-pwd-1">发布人</label>
+            <input type="text" class="" id="doc-release" placeholder="请输入发布人姓名" name="activerelease" required/>
+        </div>
+
+
+        <div class="am-form-group">
+            <label for="doc-ipt-pwd-1">活动地点</label>
+            <input type="text" class="" id="doc-place" placeholder="请输入活动地点" name="activeplace" required/>
+        </div>
+
+
+        <div class="am-form-group">
+            <label for="doc-ipt-pwd-1">活动限报人数</label>
+            <input type="number" class="" id="doc-people" value="70" name="activepeople" required/>
+        </div>
+
+
+        <div class="am-form-group">
+            <label for="doc-ipt-pwd-1">是否在展示在首页</label>
+            <div class="am-radio">
+                <label>
+                    <input type="radio" name="show" value="1" checked name="activeisshow">
+                    显示
+                </label>
+            </div>
+
+            <div class="am-radio">
+                <label>
+                    <input type="radio" name="show" value="1">
+                    不显示
+                </label>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="am-form-group">
+            <label for="doc-select-1">类别</label>
+            <select id="select" name="typeid" required>
+                <!--<option value="1" name="typeid">1</option>-->
+                <!--<option value="2" name="typeid">2</option>-->
+                <!--<option value="3" name="typeid">3</option>-->
+                <!--<option value="4" name="typeid">4</option>-->
+                <!--<option value="5" name="typeid">5</option>-->
+                <!--<option value="6" name="typeid">6</option>-->
+                <!--<option value="7" name="typeid">7</option>-->
+                <!--<option value="8" name="ytpeid">8</option>-->
+                <!--<option value="9" name="typeid">9</option>-->
+                <!--<option value="10" name="typeid">10</option>-->
+            </select>
+            <span class="am-form-caret"></span>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="am-form-group">
+            <label for="doc-select-1">分值</label>
+            <select id="doc-select-1" name="score" required>
+                <option value="0.1" name="score">0.1</option>
+                <option value="0.2" name="score">0.2</option>
+                <option value="0.3" name="score">0.3</option>
+                <option value="0.4" name="score">0.4</option>
+                <option value="0.5" name="score">0.5</option>
+                <option value="0.6" name="score">0.6</option>
+                <option value="0.7" name="score">0.7</option>
+                <option value="0.8" name="score">0.8</option>
+                <option value="0.9" name="score">0.9</option>
+                <option value="1" name="score">1.0</option>
+            </select>
+            <span class="am-form-caret"></span>
+        </div>
+
+
+        <div class="am-form-group">
+            <label for="doc-ta-1">备注</label>
+            <textarea class="" rows="5" id="doc-ta-1" name="activedescribe"></textarea>
+        </div>
+
+        <p><button type="submit" class="am-btn am-btn-default">提交</button></p>
+    </fieldset>
+</form>
+<script>
+
+    $(document).ready(function(){
+        $.post("https://www.gxfwz36524.com/secondclass/public/index.php/index/index/getselectlist",{id:1},function(res){
+
+            for(var i=0;i<(JSON.parse(res)).length;i++)
+            {
+                var option="<option value="+JSON.parse(res)[i].key+">"+JSON.parse(res)[i].value+"</option>";
+               $("#select").append(option)
+
+            }
+
+        })
+    })
+
+    function verificationPicFile(file) {
+        var fileSize = 0;
+        var fileMaxSize = 2048;//1M
+        var filePath = file.value;
+        if(filePath){
+            fileSize =file.files[0].size;
+            var size = fileSize / 1024;
+            if (size > fileMaxSize) {
+                alert("文件大小不能大于2M！");
+                file.value = "";
+                return false;
+            }else if (size <= 0) {
+                alert("文件大小不能为0M！");
+                file.value = "";
+                return false;
+            }
+        }else{
+            return false;
+        }
+    }
+
+
+
+    var pullfiles=function(){
+        // love the query selector
+        var fileInput = document.querySelector("#myfiles");
+        var files = fileInput.files;
+        // cache files.length
+        var fl = files.length;
+        var i = 0;
+        console.log(fl)
+        while ( i < fl) {
+            // localize file var in the loop
+            var file = files[i];
+
+            document.querySelector("#file").innerHTML=file.name;
+
+            i++;
+        }
+    }
+
+    // set the input element onchange to call pullfiles
+    document.querySelector("#myfiles").onchange=pullfiles;
+
+</script>
+{/block}
+{block name="right"}{/block}

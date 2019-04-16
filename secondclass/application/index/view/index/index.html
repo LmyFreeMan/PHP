@@ -1,0 +1,27 @@
+	{extend name="common/common" /}
+{block name="main"}
+
+    <div class="am-u-md-8 am-u-sm-12">
+		{volist name="actinfo" id="data"  offset="0" length='4'}
+
+		<article class="am-g blog-entry-article">
+            <div class="am-u-lg-5 am-u-md-12 am-u-sm-12 blog-entry-img">
+				{empty name="$data.image"}
+				<img src="__STATIC__/images/defult.png" alt="" class="am-u-sm-12">
+				{else/}
+				<img src="https://www.gxfwz36524.com/secondclass/public{$data.image}" alt="" class="am-u-sm-12">
+				{/empty}
+            </div>
+            <div class="am-u-lg-7 am-u-md-12 am-u-sm-12 blog-entry-text">
+                
+                <h1><a href="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/news/id/{$data.id}.html">{$data.title}</a></h1>
+				<span>活动时间：{$data.time}</span><br><br>
+				<span>活动地点：{$data.place}</span><br><br>
+				<span>主讲人：{$data.leader}</span>
+                <p><a href="" class="blog-continue">continue reading</a></p>
+            </div>
+        </article>
+		{/volist}
+    </div>
+
+{/block}

@@ -1,0 +1,143 @@
+{extend name="common/common" /}
+{block name="main"}
+
+<form class="am-form" method="post" action="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/apply" data-am-validator enctype="multipart/form-data">
+    <fieldset>
+        <legend>其他活动得分申请</legend>
+        学生获得相关部门认可的活动或奖项可自行申请学部第二课堂学分认定，如参加学院的“英语竞赛”并获奖、“青马工程”培训等。
+        <div class="am-form-group">
+            <label for="doc-ipt-email-1">活动名称</label>
+            <input type="text" class="" id="doc-ipt-email-1" placeholder="请输入活动名称" name="activyname" required/>
+        </div>
+
+
+        <div class="am-form-group">
+            <label for="doc-select-1">拟认定学分</label>
+            <select id="doc-select-1" name="score" required>
+                <option value="0.1" name="score">0.1</option>
+                <option value="0.2" name="score">0.2</option>
+                <option value="0.3" name="score">0.3</option>
+                <option value="0.4" name="score">0.4</option>
+                <option value="0.5" name="score">0.5</option>
+                <option value="0.6" name="score">0.6</option>
+                <option value="0.7" name="score">0.7</option>
+                <option value="0.8" name="score">0.8</option>
+                <option value="0.9" name="score">0.9</option>
+                <option value="1" name="score">1.0</option>
+                <option value="1.1" name="score">1.1</option>
+                <option value="1.2" name="score">1.2</option>
+                <option value="1.3" name="score">1.3</option>
+                <option value="1.4" name="score">1.4</option>
+                <option value="1.5" name="score">1.5</option>
+                <option value="1.6" name="score">1.6</option>
+                <option value="1.7" name="score">1.7</option>
+                <option value="1.8" name="score">1.8</option>
+                <option value="1.9" name="score">1.9</option>
+                <option value="2.0" name="score">2.0</option>
+            </select>
+            <span class="am-form-caret"></span>
+        </div>
+
+
+
+
+
+
+
+        <div class="am-form-group am-form-file">
+            <label for="doc-ipt-file-2">辅助材料证明</label>
+            <div>
+                <button type="button" class="am-btn am-btn-default am-btn-sm">
+                    <i class="am-icon-cloud-upload"></i> 选择要上传的文件</button>
+            </div>
+            <input type="file" id="myfiles" name="file" required pattern="^.*?\.(jpg|jpeg|bmp|png|gif)$"  onchange="verificationPicFile(this)"/>
+            <div id="file"></div>
+        </div>
+
+
+        <div id="richtext"></div>
+        <div class="am-form-group" id="rem">
+            <label for="doc-ipt-pwd-1">活动简述</label>
+            <textarea class="" rows="5" id="jianshu" onclick="chuxian()"  placeholder="请简述活动内容" name="jianshu" required/></textarea>
+        </div>
+        <script>
+
+
+            function chuxian() {
+
+                var E = window.wangEditor
+                var editor = new E('#richtext')
+                var $text1 = $('#jianshu')
+                editor.customConfig.onchange = function (html) {
+                    // 监控变化，同步更新到 textarea
+                    $text1.val(html)
+                }
+
+                $("#richtext").before("<label for=\"doc-ipt-pwd-1\">活动简述</label>");
+                $("#rem").css("display","none");
+                $("#jianshu").css("display","none");
+                editor.create()
+                // 初始化 textarea 的值
+                $text1.val(editor.txt.html())
+            }
+
+
+        </script>
+        <p><button type="submit" class="am-btn am-btn-default">提交</button></p>
+    </fieldset>
+</form>
+{/block}
+</body>
+
+<script>
+
+
+
+
+
+    function verificationPicFile(file) {
+        var fileSize = 0;
+        var fileMaxSize = 2048;//1M
+        var filePath = file.value;
+        if(filePath){
+            fileSize =file.files[0].size;
+            var size = fileSize / 1024;
+            if (size > fileMaxSize) {
+                alert("文件大小不能大于2M！");
+                file.value = "";
+                return false;
+            }else if (size <= 0) {
+                alert("文件大小不能为0M！");
+                file.value = "";
+                return false;
+            }
+        }else{
+            return false;
+        }
+    }
+    var pullfiles=function(){
+        // love the query selector
+        var fileInput = document.querySelector("#myfiles");
+        var files = fileInput.files;
+        // cache files.length
+        var fl = files.length;
+        var i = 0;
+        console.log(fl)
+        while ( i < fl) {
+            // localize file var in the loop
+            var file = files[i];
+
+            document.querySelector("#file").innerHTML=file.name;
+
+            i++;
+        }
+    }
+
+    // set the input element onchange to call pullfiles
+    document.querySelector("#myfiles").onchange=pullfiles;
+
+</script>
+
+
+
+</html>

@@ -1,0 +1,81 @@
+[ 2019-03-24T09:40:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-24T09:40:34+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-24T09:40:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000961s ]
+[ 2019-03-24T09:40:34+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-24T09:40:34+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001987s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-24T09:40:34+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000631s ]
+[ 2019-03-24T09:40:34+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000455s ]
+[ 2019-03-24T09:40:34+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001880s ]
+[ 2019-03-24T09:40:34+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001611s ]
+[ 2019-03-24T09:41:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-24T09:41:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-24T09:41:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000985s ]
+[ 2019-03-24T09:41:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-24T09:41:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002397s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-24T09:41:01+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000730s ]
+[ 2019-03-24T09:41:01+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeinfo' [ RunTime:0.000453s ]
+[ 2019-03-24T09:41:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001617s ]
+[ 2019-03-24T09:41:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001471s ]
+[ 2019-03-24T09:42:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-24T09:42:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-24T09:42:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000939s ]
+[ 2019-03-24T09:42:47+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-24T09:42:47+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001946s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-24T09:42:47+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000618s ]
+[ 2019-03-24T09:42:47+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000475s ]
+[ 2019-03-24T09:42:47+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001640s ]
+[ 2019-03-24T09:42:47+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001350s ]
+[ 2019-03-24T09:49:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000156s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-24T09:49:57+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-24T09:49:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001152s ]
+[ 2019-03-24T09:49:57+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-24T09:49:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001966s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-24T09:49:57+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000656s ]
+[ 2019-03-24T09:50:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000152s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-24T09:50:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-24T09:50:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000990s ]
+[ 2019-03-24T09:50:14+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-24T09:50:14+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002044s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-24T09:50:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000610s ]
+[ 2019-03-24T09:50:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000457s ]
+[ 2019-03-24T09:50:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001595s ]
+[ 2019-03-24T09:50:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001439s ]
+[ 2019-03-24T10:33:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-24T10:33:54+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-24T10:33:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000974s ]
+[ 2019-03-24T10:33:54+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-24T10:33:54+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002008s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-24T10:33:54+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000635s ]
+[ 2019-03-24T10:33:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000147s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-24T10:33:59+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-24T10:33:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001043s ]
+[ 2019-03-24T10:33:59+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-24T10:33:59+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002006s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-24T10:33:59+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000716s ]
+[ 2019-03-24T10:33:59+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000532s ]
+[ 2019-03-24T10:33:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001898s ]
+[ 2019-03-24T10:33:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001365s ]
+[ 2019-03-24T10:39:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-24T10:39:11+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-24T10:39:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001009s ]
+[ 2019-03-24T10:39:11+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-24T10:39:11+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002013s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-24T10:39:11+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000688s ]
+[ 2019-03-24T10:39:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2019-03-24T10:39:27+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-03-24T10:39:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001291s ]
+[ 2019-03-24T10:39:27+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-03-24T10:39:27+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002133s ] mysql:host=127.0.0.1;dbname=secondclass;charset=utf8
+[ 2019-03-24T10:39:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activescore' [ RunTime:0.000663s ]
+[ 2019-03-24T10:39:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activeuserinfo' [ RunTime:0.000461s ]
+[ 2019-03-24T10:39:27+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activescore' ORDER BY ORDINAL_POSITION [ RunTime:0.001672s ]
+[ 2019-03-24T10:39:27+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'secondclass' AND table_name = 'activeuserinfo' ORDER BY ORDINAL_POSITION [ RunTime:0.001361s ]

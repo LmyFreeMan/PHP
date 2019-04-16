@@ -1,0 +1,58 @@
+<div class="am-u-md-4 am-u-sm-12 blog-sidebar ">
+		<div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-text-center blog-title"><span>登录</span></h2>
+            <p>
+
+				{empty name="$Think.session.userinfo"}
+				<form class="am-form" action="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/cheakuser" method="post" id="log-form">
+				  <div class="am-input-group am-radius">       
+					<input type="text" name="username" id="doc-vld-text-2-1" class="am-radius" data-validation-message="请输入学分制系统账号" placeholder="账号" required/>
+					<span class="am-input-group-label am-radius"><i class="am-icon-user am-icon-sm am-icon-fw"></i></span>
+				  </div>      
+				  <br>
+				  <div class="am-input-group log-animation-delay">       
+					<input type="password" name="password" class="am-form-field am-radius log-input" placeholder="密码" minlength="6" required>
+					<span class="am-input-group-label am-radius"><i class="am-icon-lock am-icon-sm am-icon-fw"></i></span>
+				  </div>      
+				  <br>
+				  <button type="submit" class="am-btn am-btn-primary am-btn-block am-btn-lg am-radius log-animation-delay">登 录</button>
+				</form>
+				{else /}
+				<form class="am-form" action="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/quit" method="post" id="log-form">
+					<div class="am-input-group am-radius">       
+					学号：{$Think.Session.userinfo['schoolnum']}
+
+				  </div>      
+				  <br>
+
+				  <div class="am-input-group log-animation-delay">
+					姓名：{$Think.Session.userinfo['name']}
+
+				</div>
+					<br>
+					<div class="am-input-group log-animation-delay">
+						行政班：{$Think.Session.userinfo['cname']}
+
+					</div>
+					<br><a class="am-btn am-btn-primary am-btn-block am-btn-lg am-radius log-animation-delay" href="https://www.gxfwz36524.com/secondclass/public/index.php/index/index/personal.html">个人中心</a>
+					<button type="submit" class="am-btn am-btn-primary am-btn-block am-btn-lg am-radius log-animation-delay">注 销</button>
+				</form>
+				{/empty}
+                
+            </p>
+        </div>
+
+		<div class="blog-sidebar-widget blog-bor am-hide-sm-only">
+            <h2 class="blog-text-center blog-title"><span>往期回顾</span></h2>
+            {include file="common:banner" /}
+		</div>
+		<div class="blog-sidebar-widget blog-bor am-hide-sm-only">
+            <h2 class="blog-title"><span>文件下载</span></h2>
+            <ul class="am-list">
+                <li><a href="#">文件下载1</a></li>
+                <li><a href="#">文件下载1</a></li>
+                <li><a href="#">文件下载1</a></li>
+                <li><a href="#">文件下载1</a></li>
+            </ul>
+        </div>
+</div>

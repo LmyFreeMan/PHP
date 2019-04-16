@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'Id'  =>  '序号',
+    'Schoolnum'  =>  '学号',
+    'Typeid'  =>  '项目序号',
+    'Switch'  =>  '报名成功',
+    'Maincomment'  =>  '备注',
+    'Activeinfo.id'  =>  '编号',
+    'Activeinfo.typeid'  =>  '活动分类',
+    'Activeinfo.title'  =>  '活动名称',
+    'Activeinfo.leader'  =>  '主讲人',
+    'Activeinfo.content'  =>  '活动内容',
+    'Activeinfo.image'  =>  '活动缩略图',
+    'Activeinfo.place'  =>  '活动地点',
+    'Activeinfo.overday'  =>  '结束天数',
+    'Activeinfo.time'  =>  '活动时间',
+    'Activeinfo.total'  =>  '活动限报人数',
+    'Activeinfo.value'  =>  '活动分值',
+    'Activeinfo.switch'  =>  '是否展示',
+    'Activeinfo.releaser'  =>  '发布人',
+    'Activeinfo.maincontent'  =>  '备注',
+    'Activeuserinfo.id'  =>  '编号',
+    'Activeuserinfo.schoolnum'  =>  '学号',
+    'Activeuserinfo.name'  =>  '姓名',
+    'Activeuserinfo.genderdata'  =>  '性别(单选)',
+    'Activeuserinfo.genderdata male'  =>  '男',
+    'Activeuserinfo.genderdata female'  =>  '女',
+    'Activeuserinfo.cname'  =>  '行政班',
+    'Activeuserinfo.switch'  =>  '普通学生'
+];
